@@ -1,1 +1,5 @@
-<p>movies works!</p>
+<div class="movies-container">
+    <div class="movies-featured" *ngFor="let movie of movies">
+        <movie-app-movie-item [movie]="movie"></movie-app-movie-item>
+    </div>
+</div>
