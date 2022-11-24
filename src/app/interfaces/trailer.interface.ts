@@ -1,5 +1,5 @@
 
-export interface Trailer {
+export interface ITrailer {
     description: string,
     embedUrl: string,
     name: string,

@@ -1,5 +1,5 @@
 
-export interface Rating {
+export interface IRating {
     bestRating: string,
     ratingCount: number,
     ratingValue: number,

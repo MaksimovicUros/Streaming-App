@@ -1,5 +1,5 @@
 
-export interface Actor {
+export interface IActor {
     name: string,
     url: string
 }

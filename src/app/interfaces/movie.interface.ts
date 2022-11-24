@@ -1,18 +1,19 @@
-import { Actor } from "./actor.interface";
-import { Creator } from "./creator.interface";
-import { Rating } from "./rating.interface";
-import { Trailer } from "./trailer.interface";
+import { IActor } from "./actor.interface";
+import { ICreator } from "./creator.interface";
+import { IRating } from "./rating.interface";
+import { ITrailer } from "./trailer.interface";
 
-export interface Movie {
-    actor: Actor[],
-    rating: Rating,
+
+export interface IMovie {
+    actor: IActor[],
+    rating: IRating,
     contentRating: string,
-    creator: Creator[],
+    creator: ICreator[],
     datePublished: string,
     description: string,
     genre: string[],
     image: string,
     name: string,
     url: string,
-    trailer: Trailer
+    trailer: ITrailer
 }

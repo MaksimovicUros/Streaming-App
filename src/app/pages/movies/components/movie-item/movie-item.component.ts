@@ -1,6 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Movie } from 'src/app/interfaces/movie.interface';
-
+import { IMovie } from 'src/app/interfaces/movie.interface';
 @Component({
   selector: 'movie-app-movie-item',
   templateUrl: './movie-item.component.html',
@@ -9,6 +8,6 @@ import { Movie } from 'src/app/interfaces/movie.interface';
 export class MovieItemComponent {
 
   @Input()
-  movie: Movie | undefined;
+  movie: IMovie | undefined;
 
 }

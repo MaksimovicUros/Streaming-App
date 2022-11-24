@@ -1,6 +1,6 @@
 
 
-export interface Creator {
+export interface ICreator {
     name: string,
     url: string
 }

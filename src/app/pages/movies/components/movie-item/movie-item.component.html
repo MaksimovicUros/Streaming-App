@@ -1,1 +1,9 @@
-<p>movie-item works!</p>
+<div class="movie-item-container">
+    <div class="movie-item__image-container" [ngStyle]="{ 'background-image': 'url(' + movie?.image + ')'}">
+    </div>
+    <div class="movie-item__info">
+        <div class="movie-item__name">
+            {{ movie?.name }}
+        </div>
+    </div>
+</div>
